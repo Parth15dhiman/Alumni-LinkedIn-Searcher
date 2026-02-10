@@ -1,4 +1,4 @@
-package com.FreightFox.linkedinalumni.dto;
+package com.freightfox.linkedinalumni.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

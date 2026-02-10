@@ -1,4 +1,4 @@
-package com.FreightFox.linkedinalumni;
+package com.freightfox.linkedinalumni;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LinkedinalumniApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LinkedinalumniApplication.class, args);
+
+        SpringApplication.run(LinkedinalumniApplication.class, args);
 	}
 
 }

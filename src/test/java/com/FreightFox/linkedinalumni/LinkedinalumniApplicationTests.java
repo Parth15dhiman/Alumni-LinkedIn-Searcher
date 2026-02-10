@@ -1,4 +1,4 @@
-package com.FreightFox.linkedinalumni;
+package com.freightfox.linkedinalumni;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
