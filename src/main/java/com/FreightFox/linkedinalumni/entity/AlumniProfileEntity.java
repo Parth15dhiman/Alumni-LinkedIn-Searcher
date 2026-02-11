@@ -26,7 +26,7 @@ public class AlumniProfileEntity {
     @Column(nullable = false)
     private String name;
 
-    @Column(name = "current_role", nullable = false)
+    @Column(name = "current_position", nullable = false)
     private String currentRole;
 
     @Column(nullable = false)
