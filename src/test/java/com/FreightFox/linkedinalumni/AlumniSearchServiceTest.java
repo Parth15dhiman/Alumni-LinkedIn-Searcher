@@ -19,7 +19,7 @@ import static org.mockito.Mockito.when;
 import static org.mockito.Mockito.*;
 
 @SpringBootTest
-public class AlumniSearchServiceTest {
+class AlumniSearchServiceTest {
 
     private AlumniSearchProvider alumniSearchProvider;
     private AlumniProfileRepository alumniProfileRepository;

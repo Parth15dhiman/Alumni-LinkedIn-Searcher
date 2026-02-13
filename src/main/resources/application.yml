@@ -16,3 +16,9 @@ spring:
 
   profiles:
     active: mock
+
+phantombuster:
+  base-url: https://api.phantombuster.com/api/v2
+  api-key: ${PHANTOMBUSTER_API_KEY}
+  phantom-id: ${PHANTOMBUSTER_PHANTOM_ID}
+  timeout-seconds: 20

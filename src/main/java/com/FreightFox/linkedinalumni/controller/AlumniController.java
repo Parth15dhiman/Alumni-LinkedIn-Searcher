@@ -17,10 +17,10 @@ public class AlumniController {
     @Autowired
     private AlumniSearchService alumniSearchService;
     @PostMapping("/search")
-    public ResponseEntity<List<AlumniProfileResponse>> searchAlumni(@Valid @RequestBody AlumniSearchRequest request) {
+    public ResponseEntity<List<AlumniProfileResponse>> searchAlumni(
+            @Valid @RequestBody AlumniSearchRequest request) {
 
         List<AlumniProfileResponse> response = alumniSearchService.searchAlumni(request);
-
         return ResponseEntity.ok(response);
     }
 
